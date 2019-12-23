@@ -104,9 +104,10 @@ nav {
 
 .jumbotron {
   /* Here's the trick */
-  background: linear-gradient(rgba(38, 167, 115, 0.781), rgba(187, 80, 187, 0.781)) , url(bg.jpg) center center;
+  background: linear-gradient(rgba(187, 80, 187, 0.781) 5%, rgba(53, 211, 148, 0.774) 20%, rgba(187, 80, 187, 0.781) 70%), url(bg.jpg) center center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 #introSection h1 {
