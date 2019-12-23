@@ -1,0 +1,111 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.text-muted {
+  color: #c8d0d8!important;
+}
+
+nav {
+  font-family: 'Aref Ruqaa', serif;
+  text-transform: uppercase;
+}
+
+.nav-item {
+  color: #394F63;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
+
+.bg-primary {
+  background: #2B5C89!important;
+}
+
+.bg-secondary {
+  background: #395963!important;
+}
+
+.btn-primary {
+  text-transform: uppercase;
+  padding: 10px 20px;
+  letter-spacing: 1px;
+  border-color: rgb(127, 80, 154);
+  background: rgb(122, 70, 173)!important;
+}
+
+.btn-primary:hover {
+  border-color: rgb(145, 80, 154);
+  background: rgb(89, 49, 129)!important;
+}
+
+.lead {
+  line-height: 1.2;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 424px) {
+  .display-3 {
+    font-size: 2rem;
+  }
+
+  .lead {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 785px) {
+  .display-3 {
+    font-size: 2.75rem;
+  }
+
+  .lead {
+    font-size: 1.75rem;
+  }
+}
+
+#topNav {
+  padding: 10px 80px;
+}
+
+#bottomNav {
+  box-shadow: 0 4px 5px -5px #E5E5E5;
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  justify-self: center;
+}
+
+
+.navbar-brand h1 {
+  font-size: 1.5rem;
+  color: #5C2297;
+  letter-spacing: 2px;
+}
+
+.navbar-brand h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.25rem;
+  color: #DB5AC6;
+}
+
+#topNav i {
+  font-size: 1.5rem;
+  color: #E5E5E5;
+}
+
+.jumbotron h1 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.jumbotron {
+  /* Here's the trick */
+  background: linear-gradient(rgba(30, 104, 75, 0.5), rgba(83, 64, 117, 0.5)) , url("https://images.unsplash.com/photo-1557672172-298e090bd0f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80") center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
