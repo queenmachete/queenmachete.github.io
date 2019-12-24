@@ -12,10 +12,17 @@ nav {
 }
 
 .nav-item {
-  color: #394f63;
   font-weight: 600;
   letter-spacing: 1px;
   font-size: 1rem;
+}
+
+.nav-item a {
+  color: #5C2297!important;
+}
+
+.nav-item a:hover {
+  color: rgb(64, 175, 248)!important;
 }
 
 .bg-primary {
