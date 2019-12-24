@@ -18,15 +18,16 @@ nav {
 }
 
 .nav-item a {
-  color: #5C2297!important;
+  color: rgb(10, 154, 250)!important;
+  
 }
 
 .nav-item a:hover {
-  color: rgb(64, 175, 248)!important;
+  color: #5C2297!important;
 }
 
 .bg-primary {
-  background: rgb(79, 168, 228) !important;
+  background: rgb(0, 67, 129) !important;
 }
 
 .bg-secondary {
@@ -41,13 +42,14 @@ nav {
   text-transform: uppercase;
   padding: 10px 20px;
   letter-spacing: 1px;
-  border-color: rgb(127, 80, 154);
-  background: rgb(89, 49, 129) !important;
+  border: none;
+  box-shadow: 2px 5px 3px rgb(86, 36, 116);
+  background: rgb(207, 0, 138) !important;
 }
 
 .btn-primary:hover {
   border-color: rgb(145, 80, 154);
-  background: rgb(150, 72, 228) !important;
+  background: rgb(89, 49, 129) !important;
 }
 
 .lead {
@@ -72,6 +74,10 @@ nav {
   padding: 15px 20px;
   border-radius: 50%;
   font-size: 25px;
+}
+
+#testimonialsSection i {
+  color: #DB5AC6;
 }
 
 @media screen and (min-width: 967px) {
@@ -143,11 +149,13 @@ nav {
     right: 0;
     left: 0;
   }
+
+  #topNav {
+    padding: 10px 80px!important;
+  }
 }
 
-#topNav {
-  padding: 10px 80px;
-}
+
 
 #bottomNav {
   box-shadow: 0 4px 5px -5px #e5e5e5;
@@ -180,6 +188,7 @@ nav {
 .jumbotron h1 {
   text-transform: uppercase;
   letter-spacing: 5px;
+  text-shadow: 2px 2px 3px #5C2297;
 }
 
 .jumbotron {
