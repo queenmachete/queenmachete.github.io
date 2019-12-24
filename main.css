@@ -1,29 +1,29 @@
 body {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .text-muted {
-  color: #c8d0d8!important;
+  color: #c8d0d8 !important;
 }
 
 nav {
-  font-family: 'Aref Ruqaa', serif;
+  font-family: "Aref Ruqaa", serif;
   text-transform: uppercase;
 }
 
 .nav-item {
-  color: #394F63;
+  color: #394f63;
   font-weight: 600;
   letter-spacing: 1px;
   font-size: 1rem;
 }
 
 .bg-primary {
-  background: #2B5C89!important;
+  background: rgb(116, 181, 241) !important;
 }
 
 .bg-secondary {
-  background: #395963!important;
+  background: #395963 !important;
 }
 
 .btn-primary {
@@ -31,12 +31,12 @@ nav {
   padding: 10px 20px;
   letter-spacing: 1px;
   border-color: rgb(127, 80, 154);
-  background: rgb(122, 70, 173)!important;
+  background: rgb(89, 49, 129) !important;
 }
 
 .btn-primary:hover {
   border-color: rgb(145, 80, 154);
-  background: rgb(89, 49, 129)!important;
+  background: rgb(150, 72, 228)  !important;
 }
 
 .lead {
@@ -44,17 +44,28 @@ nav {
   font-size: 2rem;
 }
 
-@media screen and (max-width: 425px) {
-  .display-3 {
-    font-size: 2rem;
+#longerIntroSection h2 {
+  font-size: 1.75rem !important;
+}
+
+.intro-list li {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  margin: 30px auto;
+  align-items: center;
+}
+
+@media screen and (min-width: 967px) {
+  .intro-list li {
+    flex-direction: row;
+    height: 80px;
+    margin: -20px 0;
   }
 
-  .lead {
-    font-size: 1.5rem;
-  }
-
-  #introSection h1 {
-    font-size: 1.5rem!important;
+  .intro-list svg {
+    width: 50px!important;
+    margin-right: 10px;
   }
 }
 
@@ -68,13 +79,53 @@ nav {
   }
 
   #introSection h1 {
-    font-size: 1.75rem!important;
+    font-size: 1.75rem !important;
+  }
+
+  #longerIntroSection h1 {
+    font-size: 1.5rem !important;
+  }
+
+  #longerIntroSection h2 {
+    font-size: 1rem !important;
   }
 
   .intro-list {
     padding: 0px;
     margin: 0 auto;
-    padding-left: 60px;
+  }
+
+  .intro-list svg {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .display-3 {
+    font-size: 2rem;
+  }
+
+  .lead {
+    font-size: 1.5rem;
+  }
+
+  #introSection h1 {
+    font-size: 1.5rem !important;
+  }
+
+
+}
+
+@media screen and (min-width: 993px) {
+  .jumbotron {
+    height: 85vh;
+  }
+
+  .jumbotron .container {
+    position: absolute;
+    top: 35vh;
+    right: 0;
+    left: 0;
   }
 }
 
@@ -83,7 +134,7 @@ nav {
 }
 
 #bottomNav {
-  box-shadow: 0 4px 5px -5px #E5E5E5;
+  box-shadow: 0 4px 5px -5px #e5e5e5;
   display: flex;
   justify-content: space-around;
 }
@@ -92,23 +143,22 @@ nav {
   justify-self: center;
 }
 
-
 .navbar-brand h1 {
   font-size: 1.5rem;
-  color: #5C2297;
+  color: #5c2297;
   letter-spacing: 2px;
 }
 
 .navbar-brand h2 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   letter-spacing: 2px;
   font-size: 1.25rem;
-  color: #DB5AC6;
+  color: #db5ac6;
 }
 
 #topNav i {
   font-size: 1.5rem;
-  color: #E5E5E5;
+  color: #e5e5e5;
 }
 
 .jumbotron h1 {
@@ -118,20 +168,32 @@ nav {
 
 .jumbotron {
   /* Here's the trick */
-  background: linear-gradient(rgba(187, 80, 187, 0.781) 5%, rgba(53, 211, 148, 0.774) 20%, rgba(187, 80, 187, 0.781) 70%), url(bg.jpg) center center;
+  background: linear-gradient(
+      rgba(187, 80, 187, 0.781) 5%,
+      rgba(53, 211, 148, 0.774) 20%,
+      rgba(187, 80, 187, 0.781) 70%
+    ),
+    url(bg.jpg) center center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
-#introSection h1 {
+#introSection h1, #longerIntroSection h1 {
   text-transform: uppercase;
   letter-spacing: 4px;
-  color: #2B5C89;
+  color: #2b5c89;
 }
 
 .intro-list {
   list-style: none;
   font-size: 1.5rem;
-  color: #599C76;
+  color: #599c76;
+}
+
+
+.linebreak {
+  border-bottom: 2px solid black;
+  width: 60vw;
+  margin: 40px auto;
 }
