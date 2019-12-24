@@ -19,11 +19,15 @@ nav {
 }
 
 .bg-primary {
-  background: rgb(116, 181, 241) !important;
+  background: rgb(0, 173, 173) !important;
 }
 
 .bg-secondary {
   background: #395963 !important;
+}
+
+.bg-dark {
+  background: rgb(162, 121, 216) !important;
 }
 
 .btn-primary {
@@ -36,7 +40,7 @@ nav {
 
 .btn-primary:hover {
   border-color: rgb(145, 80, 154);
-  background: rgb(150, 72, 228)  !important;
+  background: rgb(150, 72, 228) !important;
 }
 
 .lead {
@@ -56,6 +60,13 @@ nav {
   align-items: center;
 }
 
+#testimonialsSection .button i {
+  background: white;
+  padding: 15px 20px;
+  border-radius: 50%;
+  font-size: 25px;
+}
+
 @media screen and (min-width: 967px) {
   .intro-list li {
     flex-direction: row;
@@ -64,7 +75,7 @@ nav {
   }
 
   .intro-list svg {
-    width: 50px!important;
+    width: 50px !important;
     margin-right: 10px;
   }
 }
@@ -112,8 +123,6 @@ nav {
   #introSection h1 {
     font-size: 1.5rem !important;
   }
-
-
 }
 
 @media screen and (min-width: 993px) {
@@ -169,17 +178,18 @@ nav {
 .jumbotron {
   /* Here's the trick */
   background: linear-gradient(
-      rgba(187, 80, 187, 0.781) 5%,
-      rgba(53, 211, 148, 0.774) 20%,
+      rgba(53, 211, 148, 0.774) 30%,
       rgba(187, 80, 187, 0.781) 70%
     ),
-    url(bg.jpg) center center;
+    url(https://images.unsplash.com/photo-1464802686167-b939a6910659?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1033&q=80)
+      center center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
-#introSection h1, #longerIntroSection h1 {
+#introSection h1,
+#longerIntroSection h1 {
   text-transform: uppercase;
   letter-spacing: 4px;
   color: #2b5c89;
@@ -190,7 +200,6 @@ nav {
   font-size: 1.5rem;
   color: #599c76;
 }
-
 
 .linebreak {
   border-bottom: 2px solid black;
