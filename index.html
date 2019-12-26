@@ -47,27 +47,32 @@
       <!---------
     - TOP NAV -
     ---------->
-      <nav class="navbar bg-primary px-4 shadow-sm" id="topNav">
+      <nav class="navbar bg-primary navbar-dark px-4 shadow-sm" id="topNav">
         <i class="fab fa-facebook"></i>
+        <!--NAV BUTTON-->
+        <div class="d-lg-none">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#mobileNav"
+            aria-controls="navbarToggle"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            id="top-nav-button"
+          >
+            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+          </button>
+        </div>
       </nav>
 
       <!------------
     - BOTTOM NAV -
     ------------->
-      <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm" id="bottomNav">
-        <!--NAV BUTTON-->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#mobileNav"
-          aria-controls="navbarToggle"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-          id="top-nav-button"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-white shadow-sm"
+        id="bottomNav"
+      >
         <!-- COLLAPSIBLE LEFT -->
         <div
           class="collapse navbar-collapse w-100 order-1 order-lg-0 justify-content-lg-end"

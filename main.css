@@ -191,7 +191,12 @@ nav {
 }
 
 #topNav i {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
+  color: white;
+}
+
+#topNav i:hover {
+  cursor: pointer;
   color: #e5e5e5;
 }
 
