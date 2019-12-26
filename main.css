@@ -18,11 +18,11 @@ nav {
 }
 
 .nav-item a {
-  color: rgb(10, 154, 250) !important;
+  color: #004381 !important;
 }
 
 .nav-item a:hover {
-  color: #5c2297 !important;
+  color: rgb(10, 154, 250) !important;
 }
 
 .bg-primary {
@@ -43,7 +43,7 @@ nav {
   letter-spacing: 1px;
   border: none;
   box-shadow: 2px 5px 3px rgb(86, 36, 116);
-  background: rgb(207, 0, 138) !important;
+  background: #EC008C !important;
 }
 
 .btn-primary:hover {
@@ -188,7 +188,7 @@ nav {
   font-family: "Josefin Sans", sans-serif;
   letter-spacing: 2px;
   font-size: 1.25rem;
-  color: #db5ac6;
+  color: #EC008C;
 }
 
 #topNav i {
