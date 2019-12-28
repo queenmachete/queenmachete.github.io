@@ -30,7 +30,7 @@ nav {
 }
 
 .bg-secondary {
-  background: #395963 !important;
+  background: rgb(86, 36, 116) !important;
 }
 
 .bg-dark {
@@ -86,6 +86,8 @@ nav {
   margin: 0 5px;
 }
 
+
+
 @media screen and (min-width: 967px) {
   .intro-list li {
     flex-direction: row;
@@ -99,6 +101,12 @@ nav {
   }
 }
 
+@media screen and (max-width: 967px) {
+  .intro-list li:last-child svg {
+    margin-left: 10px;
+  }
+}
+
 @media screen and (max-width: 785px) {
   .display-3 {
     font-size: 2.75rem;
@@ -108,12 +116,16 @@ nav {
     font-size: 1.75rem;
   }
 
-  #introSection h1 {
+  #introSection h1, #testimonialsSection h1 {
     font-size: 1.75rem !important;
   }
 
   #longerIntroSection h1 {
     font-size: 1.5rem !important;
+  }
+
+  #testimonialsSection .lead {
+    font-size: 1.25rem !important;
   }
 
   #longerIntroSection h2 {
@@ -128,6 +140,12 @@ nav {
   .intro-list svg {
     margin-right: 10px;
   }
+
+  .intro-list li {
+    width: auto;
+    text-align: center;
+  }
+
 }
 
 @media screen and (max-width: 425px) {
@@ -141,6 +159,14 @@ nav {
 
   #introSection h1 {
     font-size: 1.5rem !important;
+  }
+
+  #longerIntroSection svg {
+    width: 100px!important;
+  }
+
+  #longerIntroSection p {
+    font-size: 1rem!important;
   }
 }
 
@@ -177,9 +203,21 @@ nav {
   justify-self: center;
 }
 
+.logo h1 {
+  font-family: "Aref Ruqaa", serif;
+  color: #5c2297;
+}
+
+.logo h2 {
+  color: #EC008C;
+}
+
+.logo h1, .logo h2 {
+  text-transform: uppercase;
+}
+
 .navbar-brand h1 {
   font-size: 1.5rem;
-  color: #5c2297;
   letter-spacing: 2px;
 }
 
@@ -187,7 +225,17 @@ nav {
   font-family: "Josefin Sans", sans-serif;
   letter-spacing: 2px;
   font-size: 1.25rem;
-  color: #EC008C;
+}
+
+footer .logo {
+  text-align: center;
+}
+footer h1 {
+  font-size: 18px;
+}
+
+footer h2 {
+  font-size: 16px;
 }
 
 #topNav i {
@@ -235,6 +283,10 @@ body {
 
 #longerIntroSection p {
   font-size: 1.25rem;
+}
+
+#longerIntroSection svg {
+  width: 150px!important;
 }
 
 .intro-list {
