@@ -38,12 +38,21 @@ nav {
 }
 
 .bg-purple {
-  background: #A279D8;
+  background: linear-gradient(
+      to right,
+      rgba(162, 121, 216, 0.712) 100%,
+      rgba(121, 170, 216, 0.61) 100%
+    ),
+    url(bg2.jpg);
+  background-repeat: repeat-x;
+  background-size: contain;
 }
 
 .rounded-img {
   border-radius: 50%;
 }
+
+
 
 .btn-primary {
   text-transform: uppercase;
@@ -55,6 +64,7 @@ nav {
 }
 
 .btn-secondary {
+  justify-self: flex-end;
   text-transform: uppercase;
   padding: 10px 20px;
   letter-spacing: 1px;
@@ -168,6 +178,10 @@ nav {
 @media screen and (max-width: 425px) {
   .display-3 {
     font-size: 2rem;
+  }
+  
+  .testimonials p {
+    font-size: .8rem;
   }
 
   .lead {
