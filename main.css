@@ -37,6 +37,14 @@ nav {
   background: rgb(162, 121, 216) !important;
 }
 
+.bg-purple {
+  background: #A279D8;
+}
+
+.rounded-img {
+  border-radius: 50%;
+}
+
 .btn-primary {
   text-transform: uppercase;
   padding: 10px 20px;
@@ -46,7 +54,16 @@ nav {
   background: #EC008C !important;
 }
 
-.btn-primary:hover {
+.btn-secondary {
+  text-transform: uppercase;
+  padding: 10px 20px;
+  letter-spacing: 1px;
+  border: none;
+  box-shadow: 2px 5px 3px rgb(86, 36, 116);
+  background: #25a85e;
+}
+
+.btn-primary:hover, .btn-secondary:hover {
   border-color: rgb(145, 80, 154);
   background: rgb(89, 49, 129) !important;
 }
