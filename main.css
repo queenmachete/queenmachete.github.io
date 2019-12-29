@@ -44,8 +44,12 @@ nav {
       rgba(121, 170, 216, 0.61) 100%
     ),
     url(bg2.jpg);
-  background-repeat: repeat-x;
+
   background-size: contain;
+}
+
+#longerIntroSection img {
+  height: 150px;
 }
 
 .rounded-img {
