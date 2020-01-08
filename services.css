@@ -1,0 +1,16 @@
+.card {
+  min-height: 350px;
+  padding-top: 30px!important;
+  margin-top: 30px!important;
+}
+
+.card h3 {
+  font-size: 1.75rem!important;
+}
+
+@media screen and (max-width: 1200px) {
+  .card {
+    min-height: auto;
+    margin-top: 30px!important;
+  }
+}

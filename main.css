@@ -11,6 +11,14 @@ nav {
   text-transform: uppercase;
 }
 
+footer .navbar-brand h1 {
+  font-size: 1.25rem;
+}
+
+footer .navbar-brand h2 {
+  font-size: 1rem;
+}
+
 .nav-item {
   font-weight: 600;
   letter-spacing: 1px;
@@ -46,6 +54,12 @@ nav {
     url(bg2.jpg);
 
   background-size: contain;
+}
+
+.gradient-text {
+  background: -webkit-linear-gradient(rgb(197, 57, 252), rgb(255, 91, 233));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #longerIntroSection img {
