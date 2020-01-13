@@ -4,6 +4,17 @@
   margin-top: 30px!important;
 }
 
+.card::before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -8px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
 .card h3 {
   font-size: 1.75rem!important;
 }
